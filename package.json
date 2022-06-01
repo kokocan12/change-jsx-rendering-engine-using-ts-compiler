@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "kokocan12 <sky203614@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node scripts/run.js"
+  },
   "devDependencies": {
     "typescript": "^4.7.2"
   }

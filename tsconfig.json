@@ -1,11 +1,14 @@
 {
-    "include": ["src/**/*"],
-    "compilerOptions": {
-        "target": "ES6",
-        "jsx": "react",
-        "jsxFactory": "MyApp",
-        "paths": {
-            "MyApp": ["./MyApp"]
-        }
-    }
+  "include": ["./src/**/*"],
+  "exclude": ["./src/MyRenderer/**/*"],
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "jsx": "react",
+    "jsxFactory": "MyRenderer",
+    "paths": {
+      "MyRenderer": ["./src/MyRenderer/index.ts"]
+    },
+    "outDir": "out"
+  }
 }
