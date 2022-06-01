@@ -1,0 +1,10 @@
+{
+  "name": "tsc-jsx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kokocan12 <sky203614@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
